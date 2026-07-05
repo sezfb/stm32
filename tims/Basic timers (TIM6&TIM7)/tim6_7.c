@@ -1,4 +1,5 @@
 #include "tim6_7.h"
+#include <stdio.h>
 
 void tim6_init(void)
 {   
@@ -13,11 +14,11 @@ void tim6_init(void)
 
     TIM6_CR1 |= (1 << 7);
     TIM6_CR1 &= ~(1 << 4);
-    TIM6_CR1 |= (1 << 3);
+    TIM6_CR1 &= ~(1 << 3);
     TIM6_CR1 &= ~(1 << 2);
     TIM6_CR1 &= ~(1 << 0);
 
-    TIM6_DIER |= (1 << 8); // DMA, само по себе ничего не дает
+    // TIM6_DIER |= (1 << 8); // DMA, само по себе ничего не дает
     // надо включить NVIC, чтобы CPU реагировал на прерывания от таймера
 }
 

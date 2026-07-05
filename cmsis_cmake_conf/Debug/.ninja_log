@@ -1,0 +1,7 @@
+# ninja log v7
+2	105	8049868341892716	CMakeFiles/test.dir/Sources/main.c.obj	d59d5e4c26cfe2d9
+9	109	8049868341958522	CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj	e1dac47a4709d132
+11	116	8049868341973541	CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj	4322f07902a95b54
+7	121	8049868341935438	CMakeFiles/test.dir/Sources/sysmem.c.obj	69b70df99d542cc7
+5	154	8049868341924123	CMakeFiles/test.dir/Sources/syscalls.c.obj	73b13967b55d2493
+155	250	8049868343414147	test.elf	657e959eec735a9b
