@@ -66,6 +66,7 @@ set (PROJECT_SOURCES
  	Drivers/rcc/rcc.c
 	Drivers/gpio/gpio.c
 	Drivers/tim6_7/tim6_7.c
+	Drivers/NVIC/NVIC.c
 	)
 
 set (PROJECT_DEFINES
@@ -82,6 +83,7 @@ set (PROJECT_INCLUDES
 	Drivers/rcc
 	Drivers/gpio
 	Drivers/tim6_7
+	Drivers/NVIC
     )
 
 ############ MODIFY ACCORDING TO REQUIREMENTS) ########################

@@ -1,9 +1,10 @@
 # ninja log v7
-9	122	8050094192450544	CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj	15b5efde859c79d9
-2	134	8050094192339390	CMakeFiles/test.dir/Sources/main.c.obj	90e45902e34a4532
-6	138	8050094192426809	CMakeFiles/test.dir/Sources/sysmem.c.obj	1036fab928d786c0
-4	140	8050094192339390	CMakeFiles/test.dir/Sources/syscalls.c.obj	2ac1c32bf815945f
-11	143	8050094192470519	CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj	4ec27c21e831b6b
-14	153	8050094192506861	CMakeFiles/test.dir/Drivers/gpio/gpio.c.obj	5f8522963fbd86d1
-124	203	8050094193587095	CMakeFiles/test.dir/Drivers/tim6_7/tim6_7.c.obj	c20e8ceb2bb8ca31
-203	282	8050094194341329	test.elf	59f39c3ae3e18dca
+7	104	8050685551716387	CMakeFiles/test.dir/Sources/sysmem.c.obj	3b1a93eb8b978c88
+9	109	8050685551849982	CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj	501b3e183a88b12f
+5	126	8050685551716387	CMakeFiles/test.dir/Sources/syscalls.c.obj	c26a2deff3b06d66
+2	128	8050685551716387	CMakeFiles/test.dir/Sources/main.c.obj	e1f00c5d44cba6c2
+14	138	8050685551930060	CMakeFiles/test.dir/Drivers/gpio/gpio.c.obj	8b0d0aa317b73342
+12	142	8050685551869983	CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj	e1ed424875752a77
+113	197	8050685552870339	CMakeFiles/test.dir/Drivers/NVIC/NVIC.c.obj	882a731d4a57c150
+107	207	8050685552815367	CMakeFiles/test.dir/Drivers/tim6_7/tim6_7.c.obj	971f038acaa67759
+207	288	8050685553818042	test.elf	245df40c6a478f6b
