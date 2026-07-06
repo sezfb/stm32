@@ -1,4 +1,4 @@
-# Install script for directory: D:/STM_WORKSPACE/stm32_GIT/cube_ide_test_prog/r
+# Install script for directory: D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/STM_OF_PACK/ide/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.win32_1.0.100.202602081740/tools/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/STM_CMAKE/arm/bin/arm-none-eabi-objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/STM_WORKSPACE/stm32_GIT/cube_ide_test_prog/r/Debug/install_local_manifest.txt"
+  file(WRITE "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/STM_WORKSPACE/stm32_GIT/cube_ide_test_prog/r/Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
