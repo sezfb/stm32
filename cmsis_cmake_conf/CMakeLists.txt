@@ -64,6 +64,8 @@ set (PROJECT_SOURCES
 	Startup/startup_stm32f446retx.s
 	
  	Drivers/rcc/rcc.c
+	Drivers/gpio/gpio.c
+	Drivers/tim6_7/tim6_7.c
 	)
 
 set (PROJECT_DEFINES
@@ -78,6 +80,8 @@ set (PROJECT_INCLUDES
  	CMSIS/Device/ST/STM32F4xx/Include
  	
 	Drivers/rcc
+	Drivers/gpio
+	Drivers/tim6_7
     )
 
 ############ MODIFY ACCORDING TO REQUIREMENTS) ########################

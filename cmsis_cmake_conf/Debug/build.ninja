@@ -53,7 +53,7 @@ build CMakeFiles/test.dir/Sources/main.c.obj: C_COMPILER__test_unscanned_Debug D
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test.dir\Sources\main.c.obj.d
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
-  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Sources
   TARGET_COMPILE_PDB = CMakeFiles\test.dir\
@@ -64,7 +64,7 @@ build CMakeFiles/test.dir/Sources/syscalls.c.obj: C_COMPILER__test_unscanned_Deb
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test.dir\Sources\syscalls.c.obj.d
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
-  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Sources
   TARGET_COMPILE_PDB = CMakeFiles\test.dir\
@@ -75,7 +75,7 @@ build CMakeFiles/test.dir/Sources/sysmem.c.obj: C_COMPILER__test_unscanned_Debug
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test.dir\Sources\sysmem.c.obj.d
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
-  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Sources
   TARGET_COMPILE_PDB = CMakeFiles\test.dir\
@@ -86,7 +86,7 @@ build CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj: ASM_COMPILER__tes
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test.dir\Startup\startup_stm32f446retx.s.obj.d
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -x assembler-with-cpp -g
-  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Startup
   TARGET_COMPILE_PDB = CMakeFiles\test.dir\
@@ -97,9 +97,31 @@ build CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj: C_COMPILER__test_unscanned_Debu
   CONFIG = Debug
   DEP_FILE = CMakeFiles\test.dir\Drivers\rcc\rcc.c.obj.d
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
-  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
   OBJECT_DIR = CMakeFiles\test.dir
   OBJECT_FILE_DIR = CMakeFiles\test.dir\Drivers\rcc
+  TARGET_COMPILE_PDB = CMakeFiles\test.dir\
+  TARGET_PDB = test.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\test.dir
+
+build CMakeFiles/test.dir/Drivers/gpio/gpio.c.obj: C_COMPILER__test_unscanned_Debug D$:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio/gpio.c || cmake_object_order_depends_target_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\test.dir\Drivers\gpio\gpio.c.obj.d
+  FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\Drivers\gpio
+  TARGET_COMPILE_PDB = CMakeFiles\test.dir\
+  TARGET_PDB = test.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\test.dir
+
+build CMakeFiles/test.dir/Drivers/tim6_7/tim6_7.c.obj: C_COMPILER__test_unscanned_Debug D$:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7/tim6_7.c || cmake_object_order_depends_target_test
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\test.dir\Drivers\tim6_7\tim6_7.c.obj.d
+  FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
+  INCLUDES = -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\Drivers\tim6_7
   TARGET_COMPILE_PDB = CMakeFiles\test.dir\
   TARGET_PDB = test.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\test.dir
@@ -112,7 +134,7 @@ build CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj: C_COMPILER__test_unscanned_Debu
 #############################################
 # Link the executable test.elf
 
-build test.elf: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Sources/main.c.obj CMakeFiles/test.dir/Sources/syscalls.c.obj CMakeFiles/test.dir/Sources/sysmem.c.obj CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj
+build test.elf: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/Sources/main.c.obj CMakeFiles/test.dir/Sources/syscalls.c.obj CMakeFiles/test.dir/Sources/sysmem.c.obj CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj CMakeFiles/test.dir/Drivers/gpio/gpio.c.obj CMakeFiles/test.dir/Drivers/tim6_7/tim6_7.c.obj
   CONFIG = Debug
   FLAGS = -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g
   LINK_FLAGS = -T../STM32F446RETX_FLASH.ld --specs=nosys.specs -Wl,-Map=test.map -Wl,--gc-sections -static -Wl,--start-group -lc -lm -Wl,--end-group

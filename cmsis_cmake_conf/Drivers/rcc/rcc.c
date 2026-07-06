@@ -1,17 +1,14 @@
 #include "rcc.h"
 #include "stm32f446xx.h"
 
-void RCC_TIM6_Enable(void)
-{
-    RCC->APB1ENR |= RCC_APB1ENR_TIM6EN;
-}
-
 void RCC_GPIOA_Enable(void)
 {
-    RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
+    // GPIOA Clock Enable
+    RCC->AHB1ENR |= (1U << 0);
 }
 
-void RCC_USART2_Enable(void)
+void RCC_TIM6_Enable(void)
 {
-    RCC->APB1ENR |= RCC_APB1ENR_USART2EN;
+    // TIM6 Clock Enable
+    RCC->APB1ENR |= (1U << 4);
 }
