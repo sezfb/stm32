@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32F446",
+            "type": "cortex-debug",
+            "request": "launch",
+
+            "servertype": "openocd",
+
+            "cwd": "${workspaceFolder}/cmsis_cmake_conf",
+
+            "executable": "${workspaceFolder}/cmsis_cmake_conf/Debug/test.elf",
+
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ],
+
+            "svdFile": "${workspaceFolder}/cmsis_cmake_conf/STM32F446.svd",
+
+            "openOCDPath": "D:/STM_CMAKE/xpack-openocd-0.12.0-7/bin/openocd.exe",
+
+            "gdbPath": "D:/STM_CMAKE/arm/bin/arm-none-eabi-gdb.exe"
+        }
+    ]
+}

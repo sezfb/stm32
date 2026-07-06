@@ -1,0 +1,69 @@
+{
+    "version": "2.0.0",
+    "options": {
+    "cwd": "${workspaceFolder}/cmsis_cmake_conf"
+},
+    "tasks": [
+        {
+            "label": "Configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--preset",
+                "Debug"
+            ]
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "--preset",
+                "Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Rebuild",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "if (Test-Path Debug) { Remove-Item -Recurse -Force Debug }; cmake --preset Debug; cmake --build --preset Debug"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Flash",
+            "type": "shell",
+            "command": "openocd",
+            "args": [
+                "-f",
+                "interface/stlink.cfg",
+                "-f",
+                "target/stm32f4x.cfg",
+                "-c",
+                "program Debug/test.elf verify reset exit"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/cmsis_cmake_conf"
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: clean rebuild",
+            "command": "cleanRebuild",
+            "targets": [
+                "all"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake template clean rebuild task"
+        }
+    ]
+}

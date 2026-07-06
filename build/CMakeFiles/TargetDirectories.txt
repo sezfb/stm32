@@ -1,0 +1,3 @@
+D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir
+D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/edit_cache.dir
+D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/rebuild_cache.dir

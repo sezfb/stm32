@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/STM_WORKSPACE/stm32_GIT/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

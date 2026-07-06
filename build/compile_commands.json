@@ -1,0 +1,50 @@
+[
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Sources\\main.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Sources\\main.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Sources/main.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Sources/main.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Sources\\syscalls.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Sources\\syscalls.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Sources/syscalls.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Sources/syscalls.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Sources\\sysmem.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Sources\\sysmem.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Sources/sysmem.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Sources/sysmem.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -x assembler-with-cpp -g -o CMakeFiles\\test.dir\\Startup\\startup_stm32f446retx.s.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Startup\\startup_stm32f446retx.s",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Startup/startup_stm32f446retx.s",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Startup/startup_stm32f446retx.s.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Drivers\\rcc\\rcc.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Drivers\\rcc\\rcc.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc/rcc.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Drivers/rcc/rcc.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Drivers\\gpio\\gpio.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Drivers\\gpio\\gpio.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio/gpio.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Drivers/gpio/gpio.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Drivers\\tim6_7\\tim6_7.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Drivers\\tim6_7\\tim6_7.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7/tim6_7.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Drivers/tim6_7/tim6_7.c.obj"
+},
+{
+  "directory": "D:/STM_WORKSPACE/stm32_GIT/build",
+  "command": "D:\\MinGW_gcc\\gcc\\bin\\gcc.exe -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/CMSIS/Device/ST/STM32F4xx/Include -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/rcc -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/gpio -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/tim6_7 -ID:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC -mcpu=Cortex-M4 -std=gnu11 -mfpu=fpv4-sp-d16  --specs=nano.specs -mthumb -Wall -Werror -g -o CMakeFiles\\test.dir\\Drivers\\NVIC\\NVIC.c.obj -c D:\\STM_WORKSPACE\\stm32_GIT\\cmsis_cmake_conf\\Drivers\\NVIC\\NVIC.c",
+  "file": "D:/STM_WORKSPACE/stm32_GIT/cmsis_cmake_conf/Drivers/NVIC/NVIC.c",
+  "output": "D:/STM_WORKSPACE/stm32_GIT/build/CMakeFiles/test.dir/Drivers/NVIC/NVIC.c.obj"
+}
+]
